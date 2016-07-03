@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void main()
+{
+  int n = 0;
+  printf("Please enter the number of the tower of the Hanoi.\n");
+  strin("%d", &n);
+  int T = 0;
+  for(int i = 0;i <= n; i++) {
+    T = 2 * T + 1;
+  }
+  printf("If the number of the tower of Hanoi is %d\n", n);
+  printf("There need %d steps to move!", T);
+  exit(0);
+}
